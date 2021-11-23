@@ -148,10 +148,6 @@ namespace ExtensionLib
         {
            return en.Aggregate((w1, w2) => f(w1).CompareTo(f(w2))>0 ? w1 : w2); ;
         }
-        public static T MinBy<U, T>(this IEnumerable<T> en, Func<T, U> f) where U : IComparable<U>
-        {
-            return en.Aggregate((w1, w2) => f(w1).CompareTo(f(w2)) < 0 ? w1 : w2); ;
-        }
         public static void ForEach<T>(this IEnumerable<T> ie, Action<T> action)
         {
             foreach (var e in ie)
@@ -159,49 +155,17 @@ namespace ExtensionLib
                 action(e);
             }
         }
-        public static IEnumerable<TU> USelect<T,TU>(this IEnumerable<T> ie, Func<T, int, IEnumerable<T>, TU> func)
-        {
-            int i = 0;
+        //public static IEnumerable<T> SelectB<T>(this IEnumerable<T> ie, Func<T, int, IEnumerable<T>,T> func)
+        //{
+        //    int i = 0;
 
-            foreach (var e in ie)
-            {
-                yield return func(e, i++, ie);
-            }
-            
-        }
-        public static IEnumerable<TU> USelect<T,TU>(this IEnumerable<T> ie, Func<T, int, TU> func)
-        {
-            int i = 0;
+        //    foreach (var e in ie)
+        //    {
+        //       T t= func(e, i++, ie);
+        //    }
 
-            foreach (var e in ie)
-            {
-               yield return func(e, i++);
-            }
-            
-        }
-        public static IEnumerable<TU> USelect<TU,T>(this IEnumerable<T> ie, Func<T, int, TU> func, IScipParam<TU> scipParam)
-        {
-            TU ReturnFunc(T e, int i1)
-            {
-
-                if (scipParam != null)
-                {
-                    if (scipParam.scipFirstCount != 0 && i1 < scipParam.scipFirstCount) return scipParam.returnedValue;
-                    if (scipParam.scipLastCount != 0 && i1 > scipParam.scipLastCount) return scipParam.returnedValue;
-                }
-
-                return func(e, i1);
-                
-            }
-
-            int i = 0;
-
-            foreach (var e in ie)
-            {
-                yield return ReturnFunc(e,i++);
-            }
-
-        }
+        //    return ie;
+        //}
         public static void ForEach(this DataGridViewRowCollection rows, Action<DataGridViewRow, int> action)
         {
             int i = 0;
@@ -222,16 +186,5 @@ namespace ExtensionLib
         #endregion
 
 
-    }
-    public interface I<T>
-    {
-       
-    }
-    public interface IScipParam<T>
-    {
-        T returnedValue { get; }
-
-        int scipFirstCount { get; }
-        int scipLastCount { get; }
     }
 }
