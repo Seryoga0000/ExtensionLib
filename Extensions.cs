@@ -78,7 +78,8 @@ namespace ExtensionLib
         //    string s = Regex.Match(str,@"\" + brStart + @".+?\" + brEnd).Value.TrimStart(brStart.ToCharArray()).TrimEnd(brEnd.ToCharArray());
         //    return s;
         //}
-
+        //    return s;
+        //}
         public static string Slice(this string str, int begin, int end)
         {
             begin = begin == 0 ? 1 : begin;
