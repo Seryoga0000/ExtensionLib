@@ -223,7 +223,10 @@ namespace ExtensionLib
 
 
     }
-
+    public interface I<T>
+    {
+       
+    }
     public interface IScipParam<T>
     {
         T returnedValue { get; }
