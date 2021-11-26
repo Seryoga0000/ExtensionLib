@@ -1,0 +1,23 @@
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\bin\Debug\ExtensionLib.dll
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\bin\Debug\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Debug\ExtensionLib.dll
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Debug\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\CesiumStandartInterface\ExtensionLib\obj\Debug\ExtensionLib.csprojAssemblyReference.cache
+D:\VisualStudioProject\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.dll
+D:\VisualStudioProject\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.pdb
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.dll
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.pdb
+E:\VisualStudioProject\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.dll
+E:\VisualStudioProject\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.pdb
+E:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.csproj.AssemblyReference.cache
+E:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
+E:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.dll
+E:\VisualStudioProject\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.dll
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\bin\Debug\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.dll
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\Extension Library\ExtensionLib\obj\Debug\ExtensionLib.csprojAssemblyReference.cache

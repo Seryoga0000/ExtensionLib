@@ -1,0 +1,11 @@
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\bin\Release\ExtensionLib.dll
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\bin\Release\ExtensionLib.pdb
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Release\ExtensionLib.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Release\ExtensionLib.dll
+C:\Users\Сергей\source\repos\CesiumStandartInterFace\ExtensionLib\obj\Release\ExtensionLib.pdb
+D:\VisualStudioProject\Extension Library\ExtensionLib\bin\Release\ExtensionLib.dll
+D:\VisualStudioProject\Extension Library\ExtensionLib\bin\Release\ExtensionLib.pdb
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Release\ExtensionLib.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Release\ExtensionLib.dll
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Release\ExtensionLib.pdb
+D:\VisualStudioProject\Extension Library\ExtensionLib\obj\Release\ExtensionLib.csprojAssemblyReference.cache
