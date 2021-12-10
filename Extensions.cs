@@ -131,6 +131,10 @@ namespace ExtensionLib
             if (s.Length == 1) s = "0" + s;
             return s;
         }
+        public static int ToInt(this TextBox tb, double min = -Double.MaxValue, double max = Double.MaxValue)
+        {
+           return tb.Text.ToInt(min, max);
+        }
         #region Others
         public static string ToStr(this DateTime dt, bool msec = false)
         {
