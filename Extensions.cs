@@ -221,10 +221,17 @@ namespace ExtensionLib
                oList.Add(s);
             }
         }
- 
+
 
         #endregion
 
+        #region Object
+        //public static T AsType<T>(this object a, Type b)
+        //{
+        //    var res = Convert.ChangeType(a, b);
+        //    return T ;
+        //}
+        #endregion
 
     }
 
@@ -235,4 +242,6 @@ namespace ExtensionLib
         int scipFirstCount { get; }
         int scipLastCount { get; }
     }
+
+
 }
