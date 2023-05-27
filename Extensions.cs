@@ -115,6 +115,17 @@ namespace ExtensionLib
         {
             return d.ToString(CultureInfo.InvariantCulture);
         }
+
+        public static double Round(this double d,int numberOfValueDigit)
+        {
+            if (numberOfValueDigit < 1) 
+                throw new ArgumentOutOfRangeException("Количество значащих цифр не должно быть меньше 1");
+
+            var format = $@"0.{new string('0', numberOfValueDigit-1)}E+00";
+            string dStr = d.ToString(format, CultureInfo.InvariantCulture);
+            double dNew = dStr.ToDouble();
+            return dNew;
+        }
         #endregion
         public static List<T> ToList<T> (this  BlockingCollection<T> bl)
         {
@@ -135,6 +146,7 @@ namespace ExtensionLib
         {
            return tb.Text.ToInt(min, max);
         }
+
         #region Others
         public static string ToStr(this DateTime dt, bool msec = false)
         {
