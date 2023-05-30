@@ -27,3 +27,9 @@ E:\VisualStudioProject\ExtensionLib\obj\Debug\ExtensionLib.csproj.AssemblyRefere
 E:\VisualStudioProject\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
 E:\VisualStudioProject\ExtensionLib\obj\Debug\ExtensionLib.dll
 E:\VisualStudioProject\ExtensionLib\obj\Debug\ExtensionLib.pdb
+C:\Users\Sergey\source\repos\ExtensionLib\bin\Debug\ExtensionLib.dll
+C:\Users\Sergey\source\repos\ExtensionLib\bin\Debug\ExtensionLib.pdb
+C:\Users\Sergey\source\repos\ExtensionLib\obj\Debug\ExtensionLib.csproj.AssemblyReference.cache
+C:\Users\Sergey\source\repos\ExtensionLib\obj\Debug\ExtensionLib.csproj.CoreCompileInputs.cache
+C:\Users\Sergey\source\repos\ExtensionLib\obj\Debug\ExtensionLib.dll
+C:\Users\Sergey\source\repos\ExtensionLib\obj\Debug\ExtensionLib.pdb
