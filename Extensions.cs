@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Microsoft.VisualBasic;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace ExtensionLib
 {
@@ -127,6 +128,41 @@ namespace ExtensionLib
             return dNew;
         }
         #endregion
+
+        public static List<T> ScaleToPowerOfTwo<T>(this List<T> list)
+        {
+            int length = list.Count;
+            int nextPowerOfTwo = (int)Math.Pow(2, Math.Ceiling(Math.Log(length,2)));
+
+            if (nextPowerOfTwo == length)
+            {
+                // No need to scale, already a power of 2
+                return list;
+            }
+
+            // Create a new list with the next power of 2 length
+            List<T> scaledList = new List<T>(nextPowerOfTwo);
+
+            // Copy the original values to the scaled list
+            scaledList.AddRange(list);
+
+            // Fill the remaining elements with zeros
+            for (int i = length; i < nextPowerOfTwo; i++)
+            {
+                scaledList.Add(default(T));
+            }
+
+            return scaledList;
+        }
+
+        //public static IEnumerable<T> MinMaxFilter<T>(this IEnumerable<T> list,int chunkSize)
+        //{
+        //    var filtredData = list.Select((x, i) => new { Index = i, Value = x })
+        //    .GroupBy(x => x.Index / chunkSize)
+        //    .SelectMany(x => new  { x.Aggregate((i1, i2) => i1.Value.L > i2.Value.L ? i1 : i2).Value, x.Aggregate((i1, i2) => i1.Value.L < i2.Value.L ? i1 : i2).Value })
+        //    .ToList();
+        //}
+
         public static List<T> ToList<T> (this  BlockingCollection<T> bl)
         {
             List<T> l = new List<T>();
